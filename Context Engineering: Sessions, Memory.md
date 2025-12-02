@@ -1,4 +1,4 @@
-Insights are derived from Google’s [whitepaper on Context Engineering](https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory), and Manus’s blog on [**Context Engineering for AI Agents**](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
+Insights are derived from Google’s [whitepaper on Context Engineering](https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory), and Manus’s blog on [Context Engineering for AI Agents](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
 
 ## Key Concepts
 
@@ -85,7 +85,7 @@ Compaction strategies: how to know what content to throw out of a session withou
 
 ## Components to memory
 
-![Screenshot 2025-12-02 at 10.30.33 PM.png](attachment:63713579-01fd-444f-805e-d01de86f4dd1:Screenshot_2025-12-02_at_10.30.33_PM.png)
+![Figure 5](./public/figure%205.png)
 
 1. The user: providing raw source data for memories
 2. The agent (Developer logic): congifures how to decide what and when to remember
@@ -101,7 +101,7 @@ Compaction strategies: how to know what content to throw out of a session withou
 
 ### Comparison of RAG and memory managers
 
-![Screenshot 2025-12-02 at 10.30.07 PM.png](attachment:fd2c90da-3b33-4374-8eca-0f016d783ace:Screenshot_2025-12-02_at_10.30.07_PM.png)
+![Table 1](./public/table%201.png)
 
 ### Storage architectures
 
