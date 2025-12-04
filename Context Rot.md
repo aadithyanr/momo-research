@@ -73,7 +73,7 @@
 - **Hypothesis**:
 
   - If the question and the answer use similar words or meanings, the model finds the answer easily.
-  - If they use different phrasing, it gets much harder — especially when the context gets long.
+  - If they use different phrasing, it gets much harder, especially when the context gets long.
 
   Example:
 
