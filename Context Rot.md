@@ -260,6 +260,7 @@
   - Or does irrelevant information interfere?
 
 - **Method**:
+- ![longmemeval](https://research.trychroma.com/img/context_rot/longmemeval/ex.png)
   1. Extract 306 questions from LongMemEval_s benchmark
   2. Test each question under two conditions:
      - **Full (~113,000 tokens)**: Entire conversation history (mostly irrelevant)
