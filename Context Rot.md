@@ -55,7 +55,7 @@
 ## 4. Experiment Details
 
 ### 4.1 Needle-Question Similarity
-https://research.trychroma.com/img/context_rot/longmemeval/needle_question_sim_arxiv.png
+![Needle-Question Similarity](https://research.trychroma.com/img/context_rot/longmemeval/needle_question_sim_arxiv.png)
 
 > **TL;DR**: When asking "What's the writing advice?", if the answer contains "writing" it's easy to find, but if it says "composition tips" it's harder. This experiment measures how the semantic similarity between question and answer affects performance as context length increases.
 
