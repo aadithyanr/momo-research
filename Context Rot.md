@@ -49,9 +49,6 @@
 | Needle-Haystack Similarity | Does the needle "blending in" hurt performance? | Different topic from background → actually better performance |
 | Haystack Structure | Organized text vs shuffled text | **Paradox**: Shuffled text performs better |
 
-📊 **[CHART: NIAH Setup Diagram]** - Needle in a Haystack experiment structure
-
-📊 **[CHART: Lexical vs Non-Lexical Matching]** - Keyword matching vs semantic inference
 
 ---
 
