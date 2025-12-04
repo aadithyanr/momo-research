@@ -15,6 +15,7 @@
   - Doesn't test semantic inference
   - Doesn't test filtering similar-but-wrong info
   - Doesn't test finding blended information
+  - **NoLiMa dataset**: 72.4% of needle-question pairs require external/semantic knowledge beyond simple keyword matching
 - **So Chroma tested 18 LLMs on realistic tasks** → discovered **Context Rot**
 
 ### Context Rot
@@ -330,6 +331,7 @@
 ## 7. Practical Guidelines
 
 ### Core Principle
+> **Context Engineering**: The careful construction and management of a model's context window to optimize performance.
 
 ```
 Information EXISTS in context ≠ Performance guaranteed
@@ -399,4 +401,6 @@ WHERE and HOW it's placed = Determines performance
 
 ---
 
-*Source: [Chroma Research](https://research.trychroma.com/context-rot)*
+- **Source**: [Chroma Research](https://research.trychroma.com/context-rot)*
+- **Code**: [github.com/chroma-core/context-rot](https://github.com/chroma-core/context-rot)
+- **Dataset**: Available via Google Drive (see GitHub repo)
