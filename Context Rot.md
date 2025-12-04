@@ -125,11 +125,11 @@
   4. Measure accuracy for each condition
 
 - **Distractor Design**:
-  - Needle: "The best writing advice from my college professor was 'write every day'"
-  - Distractor #1: Source change → "Advice from my college **classmate** was..."
-  - Distractor #2: Sentiment change → "The **worst** advice was..."
-  - Distractor #3: Time change → "During **high school**..."
-  - Distractor #4: Certainty change → "Maybe...I think it was..."
+  - Needle: "I think the best writing tip I received from my college classmate was to write every week"
+  - Distractor #1: Source change → "The best writing tip I received from my college professor..."
+  - Distractor #2: Sentiment change → "The **worst** writing advice I got from..."
+  - Distractor #3: Time change → "..to write each essay in three different styles, this was back in high school."
+  - Distractor #4: Certainty change → "I thought the best writing advice...but not anymore."
 
 **Key Findings**
 
