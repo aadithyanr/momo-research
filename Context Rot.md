@@ -25,8 +25,6 @@
 - **Simple tasks too**: Not just complex reasoning
 - **Model-specific**: Claude, GPT, Gemini, Qwen each degrade differently
 
-📊 **[CHART: Hero Plot]** - Performance comparison across Claude Sonnet 4, GPT-4.1, Qwen3-32B, Gemini 2.5 Flash
-
 ---
 
 ## 2. Key Terms
@@ -54,8 +52,6 @@
 
 **Takeaway**: As context grows, semantic similarity between question and answer becomes critical.
 
-📊 **[CHART: Needle-Question Similarity]** - Blue (high similarity) vs red (low similarity) across input lengths
-
 ---
 
 ### 3.2 Distractor Impact
@@ -70,8 +66,6 @@
 
 **Distractor #3 (time change)** caused the most damage. **Claude** had lowest hallucination; **GPT** had highest.
 
-📊 **[CHART: Distractor Impact]** - Performance by distractor count and individual distractor effects
-
 ---
 
 ### 3.3 Needle-Haystack Similarity
@@ -85,8 +79,6 @@
 
 **Takeaway**: When needle differs from background, it "stands out" and is easier to find—but pattern is non-uniform.
 
-📊 **[CHART: Needle-Haystack Similarity]** - Cross-domain performance comparison
-
 ---
 
 ### 3.4 Haystack Structure
@@ -99,8 +91,6 @@
 | Shuffled (random order) | **Higher** |
 
 **Counterintuitive**: Shuffled text yields better results across all 18 models. Hypothesis: coherent text disperses attention; shuffled text makes needle stand out.
-
-📊 **[CHART: Haystack Structure]** - Original vs Shuffled performance
 
 ---
 
@@ -117,8 +107,6 @@ Input: "apple apple apple BANANA apple apple..." → Replicate exactly.
 
 **Position matters**: Unique word at beginning → higher accuracy.
 
-📊 **[CHART: Repeated Words]** - Performance by model family across input lengths
-
 ---
 
 ### 3.6 LongMemEval
@@ -131,8 +119,6 @@ Input: "apple apple apple BANANA apple apple..." → Replicate exactly.
 | Full | ~113k | Significant degradation |
 
 **Claude** showed largest gap (abstains when uncertain). **GPT/Gemini/Qwen** degrade but still attempt answers.
-
-📊 **[CHART: LongMemEval]** - Focused vs Full performance by model family
 
 ---
 
