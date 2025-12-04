@@ -25,6 +25,15 @@
 - **Simple tasks too**: Not just complex reasoning
 - **Model-specific**: Claude, GPT, Gemini, Qwen each degrade differently
 
+### Tested Models (18)
+
+| Provider | Models |
+|----------|--------|
+| **Anthropic** (5) | Claude Opus 4, Sonnet 4, Sonnet 3.7, Sonnet 3.5, Haiku 3.5 |
+| **OpenAI** (7) | o3, GPT-4.1, GPT-4.1 mini, GPT-4.1 nano, GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo |
+| **Google** (3) | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.0 Flash |
+| **Alibaba** (3) | Qwen3-235B-A22B, Qwen3-32B, Qwen3-8B |
+
 
 ---
 
